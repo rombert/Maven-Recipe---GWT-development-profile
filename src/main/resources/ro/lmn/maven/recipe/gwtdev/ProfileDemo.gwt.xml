@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='ProfileDemo'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  <entry-point class='ro.lmn.maven.recipe.gwtdev.client.ProfileDemo'/>
+
+  <source path='client'/>
+
+</module>
