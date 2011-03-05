@@ -55,6 +55,7 @@
         <configuration>
           <runTarget>index.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
+          <module>ro.lmn.maven.recipe.gwtdev.ProfileDemo</module>
         </configuration>
       </plugin>
 
@@ -79,4 +80,21 @@
     </plugins>
   </build>
 
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <build>
+        <plugins>
+         <plugin>
+           <groupId>org.codehaus.mojo</groupId>
+           <artifactId>gwt-maven-plugin</artifactId>
+           <configuration>
+             <module>ro.lmn.maven.recipe.gwtdev.ProfileDemoDev</module>
+             <draftCompile>true</draftCompile>
+           </configuration>
+      	  </plugin>
+      	</plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>

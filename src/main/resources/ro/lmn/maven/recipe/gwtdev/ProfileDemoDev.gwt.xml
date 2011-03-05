@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="ProfileDemo">
+  <inherits name="ro.lmn.maven.recipe.gwtdev.ProfileDemo" />
+  <set-property name="user.agent" value="gecko1_8" />
+</module>
