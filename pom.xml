@@ -91,6 +91,7 @@
            <configuration>
              <module>ro.lmn.maven.recipe.gwtdev.ProfileDemoDev</module>
              <draftCompile>true</draftCompile>
+             <optimizationLevel>0</optimizationLevel>
            </configuration>
       	  </plugin>
       	</plugins>
